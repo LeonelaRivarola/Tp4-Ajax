@@ -1,0 +1,35 @@
+/* styles.css */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mt-3 {
+    margin-top: 15px;
+}
+
+#message {
+    font-weight: bold;
+}
+
+/* Colores para los mensajes */
+.text-success {
+    color: green;
+}
+.text-danger {
+    color: red;
+}
+
+.text-info {
+    color: blue;
+}

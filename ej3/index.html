@@ -1,0 +1,87 @@
+<!--
+Objetivo:
+Utilizando una api online ejemplo elaboramos una web reactiva con las acciones típicas de
+un crud.
+
+▪ APIs sugeridas
+o https://jsonplaceholder.typicode.com/
+
+Consideraciones:
+
+Realizamos una web reactiva que consume la api seleccionada y que contenga las
+siguientes acciones
+o listar entidades ---
+o permitir ordenar el listado por diferentes campos----
+o filtrar el listado de entidades por diferentes filtros
+o permitir paginar el listado de entidades----
+o dar de alta una entidad ---
+o editar una entidad---
+o borrar una entidad--
+o buscar una entidad --
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link rel="stylesheet" href="../css/css_boostrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/ejer3.css">
+</head>
+
+<body>
+
+  <header>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <div class="navbar-nav ro">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="buscar.html">Buscar</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div  class="container bloquecarga">
+    <!---Debo cargar, id, nombre, descripcion, precio-->
+    <div id="carga">
+      <h1>Cargar contenido:</h1>
+      <form>
+        <div class="mb-3 row">
+          <div class="col">
+            <label for="titulo" class="form-label">Titulo</label>
+            <input type="text" id="titulo" class="form-control" placeholder="titulo">
+          </div>
+          <div class="col">
+            <label for="userid" class="form-label">UserID</label>
+            <input type="number" id="userid" class="form-control" placeholder="ID">
+          </div>
+
+        </div>
+        <div class="">
+          <label for="cuerpo" class="form-label">Cuerpo</label>
+          <input type="text" id="cuerpo" class="form-control" placeholder="cuerpo">
+        </div>
+        <button id="cargar" type="button" class="btn btn-primary">Cargar</button>
+      </form>
+    </div>
+
+    <div id="cargo"></div>
+
+    <div class="informativo">
+      <p>Importante : el recurso no se actualizará realmente en el servidor, sino que se simulará como si lo estuviera.</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../js/ejer3.js"></script>
+</body>
+
+</html>

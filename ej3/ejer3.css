@@ -1,0 +1,57 @@
+
+
+h1{
+    margin: 5% 0; 
+}
+
+a{
+    margin: 0% 2%;
+}
+
+#cargar{
+    margin: 1% 0;
+}
+
+
+#navegacion{
+    margin-left: 5%;   
+}
+
+/*PAGINA CARGAR*/
+.bloquecarga{
+    font-size: 16pt;
+    justify-content: center;
+}
+
+
+.informativo{
+    color: rgb(49, 179, 179);
+    margin-top: 5%;
+}
+/*PAGIAN BUSQUEDA*/
+.bloque{
+    margin-top: 1%;
+}
+
+.list{
+    background-color: rgb(247, 235, 202);
+    margin-top: 2%;
+    border-radius: 2px;
+}
+
+.texto{
+    color: green;
+    
+}
+
+
+#bloqueAct{
+    display: none;
+    margin-top: 5%;
+}
+
+#Confirmar, #btnActualizar,#btnborrar{
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
